@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/DSC-Amity/static/js/main.cbf26bcc.chunk.js",
+    "main.js.map": "/DSC-Amity/static/js/main.cbf26bcc.chunk.js.map",
+    "runtime-main.js": "/DSC-Amity/static/js/runtime-main.86d7a2b6.js",
+    "runtime-main.js.map": "/DSC-Amity/static/js/runtime-main.86d7a2b6.js.map",
+    "static/js/2.8df967b7.chunk.js": "/DSC-Amity/static/js/2.8df967b7.chunk.js",
+    "static/js/2.8df967b7.chunk.js.map": "/DSC-Amity/static/js/2.8df967b7.chunk.js.map",
+    "index.html": "/DSC-Amity/index.html",
+    "precache-manifest.dbfd0fdab27f87a2ff3932fc62552ad6.js": "/DSC-Amity/precache-manifest.dbfd0fdab27f87a2ff3932fc62552ad6.js",
+    "service-worker.js": "/DSC-Amity/service-worker.js",
+    "static/js/2.8df967b7.chunk.js.LICENSE.txt": "/DSC-Amity/static/js/2.8df967b7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86d7a2b6.js",
+    "static/js/2.8df967b7.chunk.js",
+    "static/js/main.cbf26bcc.chunk.js"
+  ]
+}
