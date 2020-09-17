@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/DSC-Amity/precache-manifest.dbfd0fdab27f87a2ff3932fc62552ad6.js"
+  "/DSC-Amity/precache-manifest.07509e212f03169941a7aa5d3f5e1080.js"
 );
 
 self.addEventListener('message', (event) => {

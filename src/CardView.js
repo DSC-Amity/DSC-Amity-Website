@@ -1,10 +1,12 @@
 import React from 'react'
-import 'CardView.css'
+import './CardView.css'
+import icon from './icon.jpg'
+
 export default function CardView() {
     return (
         <div className="container">
-            <img src={"src\assets\icon.jpg"} className="cardImg" id={}/>
-            <p className="CardName">Name</p>
+            <img src={icon} alt="icon" className="card-image"/>
+            <p className="card-name">Name</p>
             <i>LinkedIn</i>
             <i>Github</i>
         </div>

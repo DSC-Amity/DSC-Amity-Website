@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.js": "/DSC-Amity/static/js/main.cbf26bcc.chunk.js",
-    "main.js.map": "/DSC-Amity/static/js/main.cbf26bcc.chunk.js.map",
+    "main.css": "/DSC-Amity/static/css/main.827f5335.chunk.css",
+    "main.js": "/DSC-Amity/static/js/main.88ea6268.chunk.js",
+    "main.js.map": "/DSC-Amity/static/js/main.88ea6268.chunk.js.map",
     "runtime-main.js": "/DSC-Amity/static/js/runtime-main.86d7a2b6.js",
     "runtime-main.js.map": "/DSC-Amity/static/js/runtime-main.86d7a2b6.js.map",
-    "static/js/2.8df967b7.chunk.js": "/DSC-Amity/static/js/2.8df967b7.chunk.js",
-    "static/js/2.8df967b7.chunk.js.map": "/DSC-Amity/static/js/2.8df967b7.chunk.js.map",
+    "static/js/2.7b7fd401.chunk.js": "/DSC-Amity/static/js/2.7b7fd401.chunk.js",
+    "static/js/2.7b7fd401.chunk.js.map": "/DSC-Amity/static/js/2.7b7fd401.chunk.js.map",
     "index.html": "/DSC-Amity/index.html",
-    "precache-manifest.dbfd0fdab27f87a2ff3932fc62552ad6.js": "/DSC-Amity/precache-manifest.dbfd0fdab27f87a2ff3932fc62552ad6.js",
+    "precache-manifest.07509e212f03169941a7aa5d3f5e1080.js": "/DSC-Amity/precache-manifest.07509e212f03169941a7aa5d3f5e1080.js",
     "service-worker.js": "/DSC-Amity/service-worker.js",
-    "static/js/2.8df967b7.chunk.js.LICENSE.txt": "/DSC-Amity/static/js/2.8df967b7.chunk.js.LICENSE.txt"
+    "static/css/main.827f5335.chunk.css.map": "/DSC-Amity/static/css/main.827f5335.chunk.css.map",
+    "static/js/2.7b7fd401.chunk.js.LICENSE.txt": "/DSC-Amity/static/js/2.7b7fd401.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.86d7a2b6.js",
-    "static/js/2.8df967b7.chunk.js",
-    "static/js/main.cbf26bcc.chunk.js"
+    "static/js/2.7b7fd401.chunk.js",
+    "static/css/main.827f5335.chunk.css",
+    "static/js/main.88ea6268.chunk.js"
   ]
 }
