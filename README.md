@@ -1,1 +1,1 @@
-"# DSC-Amity" 
+# DSC-Amity
