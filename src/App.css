@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;  
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: linear-gradient(45deg,#242535,#3b5261,#2a4949,#18343b);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-page{
+  z-index: 1;
+  position: relative;
+  background: rgba(255, 255, 255, 0.7);
+  margin: 5em;
+  width: 90vw;
+
+}
+
+.particles-bg{
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  min-height: 70em;
+}

@@ -6,7 +6,7 @@ import Contact from './Contact'
 import Footer from './Footer'
 import './App.css'
 import Particles from "react-tsparticles";
-
+import logo from './assets/DSClogo.svg'
 
 export default function App() {
     return (
@@ -21,77 +21,139 @@ export default function App() {
             <Particles
                 id="tsparticles"
                 options={{
+                    detectRetina: false,
                     fpsLimit: 60,
                     interactivity: {
                         detectsOn: "canvas",
                         events: {
                             onClick: {
-                                enable: true,
-                                mode: "push",
+                                enable: false,
+                                mode: "push"
+                            },
+                            onDiv: {
+                                elementId: "repulse-div",
+                                enable: false,
+                                mode: "repulse"
                             },
                             onHover: {
                                 enable: true,
-                                mode: "repulse",
+                                mode: "bubble",
+                                parallax: {
+                                    enable: false,
+                                    force: 2,
+                                    smooth: 100
+                                }
                             },
-                            resize: true,
+                            resize: true
                         },
                         modes: {
                             bubble: {
-                                distance: 400,
+                                distance: 10,
                                 duration: 2,
-                                opacity: 0.8,
-                                size: 40,
+                                opacity: 8,
+                                size: 6,
+                                speed: 3
+                            },
+                            connect: {
+                                distance: 80,
+                                lineLinked: {
+                                    opacity: 0.5
+                                },
+                                radius: 60
+                            },
+                            grab: {
+                                distance: 400,
+                                lineLinked: {
+                                    opacity: 0.7
+                                }
                             },
                             push: {
-                                quantity: 2,
+                                quantity: 4
+                            },
+                            remove: {
+                                quantity: 2
                             },
                             repulse: {
-                                distance: 100,
-                                duration: 0.4,
+                                distance: 200,
+                                duration: 1
                             },
-                        },
+                            slow: {
+                                active: false,
+                                radius: 0,
+                                factor: 1
+                            }
+                        }
                     },
                     particles: {
                         color: {
-                            value: "#ffffff",
+                            value: ["#EF2D18", "#44EF18","#1895EF"]
                         },
-                        links: {
-                            color: "#ffffff",
-                            distance: 150,
+                        lineLinked: {
+                            blink: true,
+                            consent: false,
+                            distance: 100,
                             enable: true,
-                            opacity: 0.5,
-                            width: 1,
-                        },
-                        collisions: {
-                            enable: false,
+                            opacity: 0.8,
+                            width: 1
                         },
                         move: {
+                            attract: {
+                                enable: false,
+                                rotate: {
+                                    x:10,
+                                    y:10
+                                }
+                            },
+                            bounce: true,
                             direction: "none",
                             enable: true,
                             outMode: "bounce",
                             random: true,
-                            speed: 3,
-                            straight: false,
+                            speed: 1,
+                            straight: true,
+                            warp:true
                         },
                         number: {
                             density: {
-                                enable: true,
-                                value_area: 300,
+                                enable: false,
+                                area: 500
                             },
-                            value: 80,
+                            limit: 0,
+                            value: 300
                         },
                         opacity: {
-                            value: 0.3,
+                            animation: {
+                                enable: true,
+                                minimumValue: 0.5,
+                                speed: 1,
+                                sync: false
+                            },
+                            random: true,
+                            value: 0.5
                         },
                         shape: {
-                            type: "circle",
+                            character: {
+                                fill: true,
+                                font: "Verdana",
+                                style: "",
+                                value: "*",
+                                weight: "400"
+                            },
                         },
                         size: {
+                            animation: {
+                                enable: true,
+                                minimumValue: 1,
+                                maximumValue: 30,
+                                speed: 2,
+                                sync: false
+                            },
                             random: true,
-                            value: 5,
-                        },
+                            value: 5
+                        }
                     },
-                    detectRetina: true,
+                    
+                   
                 }}
                 className="particles-bg" />
         </div>

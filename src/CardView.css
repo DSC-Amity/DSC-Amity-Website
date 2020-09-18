@@ -1,5 +1,6 @@
 .container {
     max-height: 50em;
+    max-width: 13em;
     padding: 1em;
     border-radius: 0.3em;
     background-color: rgba(39, 66, 80, 0.5);
