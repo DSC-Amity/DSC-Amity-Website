@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Contact() {
     return (
-        <div className="section">
+        <div className="section" id="contact">
             <FontAwesomeIcon icon="check-square" />
             <FontAwesomeIcon icon="check-square" />
             <FontAwesomeIcon icon="check-square" />
