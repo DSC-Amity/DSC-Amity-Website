@@ -4,7 +4,7 @@ import CardView from './CardView'
 
 export default function Team() {
     return (
-        <div className="Section">
+        <div className="section">
             <CardView />
         </div>
     )

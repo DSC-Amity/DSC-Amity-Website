@@ -7,6 +7,7 @@ import Footer from './Footer'
 import './App.css'
 import Particles from "react-tsparticles";
 import logo from './assets/DSClogo.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function App() {
     return (
