@@ -34,6 +34,15 @@ export default function Navb(props) {
                         <NavLink href="#team">Team</NavLink>
                     </NavItem>
                     <NavItem>
+                        <NavLink href="#updates">Updates</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="#blog">Our Blogs</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="#idea">Submit an Idea</NavLink>
+                    </NavItem>
+                    <NavItem>
                         <NavLink href="#contact">Contact Us</NavLink>
                     </NavItem>
                     <NavItem>
