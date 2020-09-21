@@ -7,6 +7,7 @@ import Footer from './Footer'
 import './App.css'
 import { Col, Container, Row } from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Updates from './Updates'
 
 
 export default function App() {
@@ -16,6 +17,8 @@ export default function App() {
                     <Navb />
                 <Row><Col><Home /></Col></Row>
                 <Row><Col><Team /></Col></Row>
+                <Row><Col><Updates /></Col></Row>
+                <Row><Col><Contact /></Col></Row>
                 <Row><Col><Contact /></Col></Row>
                 <Row><Col><Footer /></Col></Row>
         </Container>

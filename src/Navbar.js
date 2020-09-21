@@ -14,7 +14,7 @@ export default function Navb(props) {
         <div>
        <Navbar color="faded" dark>
            <NavbarBrand href='/' className="mr-auto">
-                <div className="logo-title">
+                    <div className="logo-title">
                     <div >
                         <img src={logo} alt="DSC Logo" id="nav-logo" />
                     </div>
@@ -26,9 +26,9 @@ export default function Navb(props) {
            </NavbarBrand>
             <NavbarToggler onClick={toggleNavbar} className="mr-2" />
             <Collapse isOpen={!collapsed} navbar>
-                <Nav navbar>
-                    <NavItem>
-                        <NavLink href="#home">Vision</NavLink>
+                    <Nav navbar >
+                    <NavItem >
+                        <NavLink href="#home" >Vision</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href="#team">Team</NavLink>
