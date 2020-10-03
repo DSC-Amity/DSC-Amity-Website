@@ -1,18 +1,15 @@
 import React from "react";
-import Navb from "./components/navbar/Navbar";
 import Home from "./components/Home";
 import Team from "./components/Team";
 import Contact from "./components/Contact";
 import Events from "./components/Events";
 import Aim from "./components/Aim";
 import About from "./components/About";
-
 import Footer from "./components/Footer";
 import "./App.css";
 import { Col, Container, Row } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Updates from "./components/Updates";
-import Particles from "react-particles-js";
 
 export default function App() {
   return (
